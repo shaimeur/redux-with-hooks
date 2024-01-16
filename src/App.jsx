@@ -3,6 +3,8 @@ import './App.css'
 import Cart from './components/Cart'
 import AddFruit from './components/AddFruit'
 
+import Info from './components/Info'
+
 
 // const myFruitsList = [
 //   {fruitName: '🥥', id: 1},
@@ -23,6 +25,7 @@ function App() {
       <>
 
           <h1>Hello from REDUX!!</h1>
+          <Info/>
           <Cart/>
           <AddFruit/>
       </>
