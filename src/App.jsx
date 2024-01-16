@@ -1,12 +1,8 @@
 import './App.css'
-// import { ADD_FRUIT } from './redux/actionType'
 
 import Cart from './components/Cart'
-// import {useDispatch,useSelector} from "react-redux"
+import AddFruit from './components/AddFruit'
 
-// const cart  = useSelector(state => state.cart)
-
-// const dispatch = useDispatch()
 
 // const myFruitsList = [
 //   {fruitName: '🥥', id: 1},
@@ -18,7 +14,6 @@ import Cart from './components/Cart'
 // ]
 
 
-// Store Creation
 
 
 function App() {
@@ -29,6 +24,7 @@ function App() {
 
           <h1>Hello from REDUX!!</h1>
           <Cart/>
+          <AddFruit/>
       </>
 
   )

@@ -19,7 +19,7 @@ const reducerFn = (state = initialState , action) =>{
 
         case DELETE_FRUIT :
         return {...state,
-            cart : state.cart.filter((item)=>item.id !== parseInt(action.payload))
+            cart : state.cart.filter((item)=>item.id !== action.payload)
         }
 
         case UPDATE_QUANTITY_FRUIT:
